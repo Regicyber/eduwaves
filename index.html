@@ -20,29 +20,7 @@
     <meta name="twitter:url" content="https://evie.undraw.co" />
     <link rel="shortcut icon" href="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/assets/favicon.ico">
     <link rel='stylesheet' href='css/style.min.css' />
-    <script>
-function getLocation()
-{
-  // Check whether browser supports Geolocation API or not
-  if (navigator.geolocation) { // Supported
-  
-    // To add PositionOptions
-	
-	navigator.geolocation.getCurrentPosition(getPosition);
-  } else { // Not supported
-	alert("Oops! This browser does not support HTML Geolocation.");
-  }
-}
-function getPosition(position)
-{
-  document.getElementById("location").innerHTML = 
-	  "Latitude: " + position.coords.latitude + "<br>" +
-	  "Longitude: " + position.coords.longitude;
-}
 
-// To add catchError(positionError) function
-
-</script>
 </head>
 
 <body>
@@ -79,7 +57,7 @@ function getPosition(position)
                             <br />NEED A BOOK? WE'VE GOT YOU COVERED!</h1>
                         <p class="hero__text ">Our objective is to provide good quality books to all levels of education, (primary to tertiary) browse from our huge catalog of over 2 Million books.</p>
                         <a href="https://forms.gle/7DrSwZnkNidr1XZw9" class="button button__accent " onclick="trackOutboundLink( '/downloads/evie_theme.zip', 'Download', 'Theme') ">Register</a>
-                        <a href="#" class="button hero__button " target="_blank" onclick="getLocation()">Receive our Monthly Newsletters</a>
+                        <a href="geocode.html" class="button hero__button " target="_blank">Receive our Monthly Newsletters</a>
 
                         <h6>Created by DotCom Technologies</a> </h6>
                     </div>
