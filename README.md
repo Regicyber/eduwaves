@@ -1,2 +1,2 @@
-# eduwaves
-A sample site for EDUWAVES.
+# Eduwaves
+ Site template for Eduwaves
